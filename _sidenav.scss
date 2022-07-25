@@ -1,0 +1,148 @@
+$navboxheight: 55px;
+$navboxwidth: 120px;
+$navboxfontsize: small;
+$navboxtextcolor: white;
+$navboxtranslate: translate(-130px, -40px);
+
+.nav {
+    float: right;
+    margin-top: 430px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li a {
+    box-sizing: border-box;
+    height: 55px;
+    width: 55px;
+    padding: 15px;
+
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.nav .fb .fbtext {
+    box-sizing: border-box;
+    height: $navboxheight;
+    width: $navboxwidth;
+    font-size: $navboxfontsize;
+    background-color: #3B5998;
+    color: $navboxtextcolor;
+    transform: $navboxtranslate;
+    transition: 1000ms ease-in-out;
+}
+
+.fbtext {
+    opacity: 0;
+}
+
+.fbtext:hover {
+    opacity: 1;
+}
+
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.nav .twit .twitext {
+    box-sizing: border-box;
+    height: $navboxheight;
+    width: $navboxwidth;
+    font-size: $navboxfontsize;
+    text-align: center;
+    background-color: #55acee;
+    color: $navboxtextcolor;
+    transform: $navboxtranslate;
+    transition: 1000ms ease-in-out;
+}
+
+.twitext {
+    opacity: 0;
+}
+
+.twitext:hover {
+    opacity: 1;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.nav .linked .lintext {
+    box-sizing: border-box;
+    height: $navboxheight;
+    width: $navboxwidth;
+    font-size: $navboxfontsize;
+    text-align: center;
+    background-color: #007bb5;
+    color: $navboxtextcolor;
+    transform: $navboxtranslate;
+    transition: 1000ms ease-in-out;
+}
+
+.lintext {
+    opacity: 0;
+}
+
+.lintext:hover {
+    opacity: 1;
+}
+
+.fa-github {
+    background: black;
+    color: white;
+}
+
+.nav .git .gittext {
+    box-sizing: border-box;
+    height: $navboxheight;
+    width: $navboxwidth;
+    font-size: $navboxfontsize;
+    text-align: center;
+    background-color: black;
+    color: $navboxtextcolor;
+    transform: $navboxtranslate;
+    transition: 1000ms ease-in-out;
+}
+
+.gittext {
+    opacity: 0;
+}
+
+.gittext:hover {
+    opacity: 1;
+}
+
+.fa-snapchat-ghost {
+    background: #fffc00;
+    color: white;
+}
+
+.nav .snap .snaptext {
+    box-sizing: border-box;
+    height: $navboxheight;
+    width: $navboxwidth;
+    font-size: $navboxfontsize;
+    text-align: center;
+    background-color: #fffc00;
+    color: $navboxtextcolor;
+    transform: $navboxtranslate;
+    transition: 1000ms ease-in-out;
+}
+
+.snaptext {
+    opacity: 0;
+}
+
+.snaptext:hover {
+    opacity: 1;
+}

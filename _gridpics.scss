@@ -1,0 +1,185 @@
+$buttons: orange;
+$buttonstranslateY: translateY(-150px);
+
+figure {
+    display: grid;
+    grid-template-columns: 250px;
+    grid-template-rows: repeat(7 1fr);
+    justify-content: center;
+
+}
+
+button {
+    background-color: $buttons;
+    height: 20px;
+    width: 100px;
+}
+
+.btn-1 {
+    background-color: $buttons;
+    transform: $buttonstranslateY;
+    opacity: 0;
+    transition: 0.1s ease;
+}
+
+.img-1 {
+    opacity: 1;
+    transition: 2s ease-out;
+}
+
+.cnt-1:hover .img-1 {
+    opacity: 0;
+}
+
+.cnt-1:hover .btn-1 {
+    opacity: 1;
+}
+
+.btn-2 {
+    background-color: $buttons;
+    transform: $buttonstranslateY;
+    opacity: 0;
+    transition: 0.1s ease;
+}
+
+.img-2 {
+    opacity: 1;
+    transition: 2s ease-out;
+}
+
+.cnt-2:hover .img-2 {
+    opacity: 0;
+}
+
+.cnt-2:hover .btn-2 {
+    opacity: 1;
+}
+
+.btn-3 {
+    background-color: $buttons;
+    transform: $buttonstranslateY;
+    opacity: 0;
+    transition: 0.1s ease;
+}
+
+.img-3 {
+    opacity: 1;
+    transition: 2s ease-out;
+}
+
+.cnt-3:hover .img-3 {
+    opacity: 0;
+}
+
+.cnt-3:hover .btn-3 {
+    opacity: 1;
+}
+
+.btn-4 {
+    background-color: $buttons;
+    transform: $buttonstranslateY;
+    opacity: 0;
+    transition: 0.1s ease;
+}
+
+.img-4 {
+    opacity: 1;
+    transition: 2s ease-out;
+}
+
+.cnt-4:hover .img-4 {
+    opacity: 0;
+}
+
+.cnt-4:hover .btn-4 {
+    opacity: 1;
+}
+
+.btn-5 {
+    background-color: $buttons;
+    transform: $buttonstranslateY;
+    opacity: 0;
+    transition: 0.1s ease;
+}
+
+.img-5 {
+    opacity: 1;
+    transition: 2s ease-out;
+}
+
+.cnt-5:hover .img-5 {
+    opacity: 0;
+}
+
+.cnt-5:hover .btn-5 {
+    opacity: 1;
+}
+
+.btn-6 {
+    background-color: $buttons;
+    transform: $buttonstranslateY;
+    opacity: 0;
+    transition: 0.1s ease;
+}
+
+.img-6 {
+    opacity: 1;
+    transition: 2s ease-out;
+}
+
+.cnt-6:hover .img-6 {
+    opacity: 0;
+}
+
+.cnt-6:hover .btn-6 {
+    opacity: 1;
+}
+
+.btn-7 {
+    background-color: $buttons;
+    transform: $buttonstranslateY;
+    opacity: 0;
+    transition: 0.1s ease;
+}
+
+.img-7 {
+    opacity: 1;
+    transition: 2s ease-out;
+}
+
+.cnt-7:hover .img-7 {
+    opacity: 0;
+}
+
+.cnt-7:hover .btn-7 {
+    opacity: 1;
+}
+
+.img-1 {
+
+    grid-area: f1;
+}
+
+.img-2 {
+    grid-area: f2;
+}
+
+.img-3 {
+    grid-area: f3;
+}
+
+.img-4 {
+    grid-area: f4;
+}
+
+.img-5 {
+    grid-area: f5;
+}
+
+.img-6 {
+    grid-area: f6;
+}
+
+.img-7 {
+    grid-area: f7;
+}
